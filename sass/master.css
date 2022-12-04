@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300+Display&display=swap");
+body {
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Major Mono Display", monospace;
+}
+body .container {
+  line-height: 1.8;
+  font-size: 20px;
+  color: #09f010;
+  padding: 25px 25px 25px 25px;
+}
+body .container .welcome {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  border: 2px dashed #c7c7c7;
+  padding: 20px 20px 20px 20px;
+  color: #ffffff;
+}
+body .container .nameEntry {
+  margin-left: 30px;
+  color: #09f010;
+}
+body .container .nameEntry input {
+  font-family: inherit;
+  width: 27.5%;
+  border: 0;
+  border-bottom: 2px solid #09f010;
+  outline: 0;
+  font-size: 1.5rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+}
+body .container .animation {
+  margin-top: 30px;
+  margin-left: 30px;
+  color:  #f0fb0e ;
+  display: none;
+}
+body .container .animation #parent {
+  height: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+body .container .commandLine {
+  display: none;
+}
+body .container .commandLine input {
+  font-family: inherit;
+  border: 0;
+  outline: 0;
+  font-size: 1.5rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  type: uppercase;
+}
+body .container .commandLine .output .error {
+  color: #ff6e67;
+}
+body .container .commandLine .output .ls {
+  color:  #f0fb0e;
+}
+body .container .commandLine .output .certificates {
+  line-height: normal;
+}
+body .container .commandLine .output .certificates p {
+  font-size: 20px;
+}
+body .container .commandLine .output .bio {
+  color: white;
+}
+body .container .commandLine .output .skills table th {
+  padding-right: 30px;
+}
+body .container .commandLine .output .skills table td {
+  padding-right: 30px;
+  width: 80%;
+}
+body .container .commandLine .output .skills table td .progress {
+  color: white;
+  line-height: 1.5;
+  padding: 5px;
+  background: #2a2a2a;
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+body .container .commandLine .output .skills table td .progress .progress-bar {
+  height: 20px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+body .container .commandLine .output .projects {
+  line-height: normal;
+}
+body .container .commandLine .output .contact {
+  color:  #f0fb0e;
+  padding-left: 45px;
+}
+body .container .commandLine .output .form input,
+body .container .commandLine .output .form textarea {
+  font-family: inherit;
+  border: 0;
+  border-bottom: 2px solid #fffc58;
+  outline: 0;
+  font-size: 1.5rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+}
+
+.command {
+  color:  #f0fb0e;
+}
+
+.smallText {
+  padding-top: 10px;
+  color: grey;
+  font-size: 20px;
+}
+
+#userName {
+  color: #00ff9c;
+}
+
+hr {
+  color: white;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.exit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Animation */
+/* text animation */
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 500px;
+  }
+}
+
+/*# sourceMappingURL=master.css.map */
+.decor {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15=px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 10px;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: auto;
+  min-height: 40px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.decor:disabled {
+  pointer-events: none;
+}
+
+.decor:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.decor:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.tm-social-link {
+  border-color: black;
+  color: white;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
